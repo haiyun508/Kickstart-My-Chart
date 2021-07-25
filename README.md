@@ -1,4 +1,4 @@
-# Excel Homework: Kickstart My Chart
+# Kickstart My Chart
 
 ## Background
 
@@ -6,17 +6,10 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
-### Before You Begin
-
-1. Create a new space for this project called `excel-challenge` in either DropBox or Google Drive. **Do not add this homework to an existing space**.
-
-2. Store your excel workbooks in here and create a sharable link for submission.
-
-## Instructions
 
 ![Kickstarter Table](FullTable.png)
 
-Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
+With the Excel table we modify and analyze the data of 4,000 past Kickstarter projects and attempt to uncover some market trends.
 
 * Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
@@ -50,15 +43,13 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
-  * Now create a pivot chart line graph that visualizes this new table.
+  * Create a pivot chart line graph that visualizes this new table.
 
 * Create a report in Microsoft Word and answer the following questions.
 
 1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
-
-## Bonus
 
 * Create a new sheet with 8 columns:
 
@@ -95,13 +86,12 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
 * Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-## Bonus Statistical Analysis
+## Statistical Analysis
 
 If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
 
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
 
-* Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+* Create a new worksheet in the workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
   ![Images/backers01.png](backers01.png)
 
@@ -123,22 +113,4 @@ For those looking for an additional challenge, you will evaluate the number of b
 
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
 
-## Submission
 
-* To submit your homework, upload the solution and files to a GitHub repo, Dropbox, or Google Drive and submit the link to <https://bootcampspot.com/>.
-
-## Employer-Ready Criteria
-
-Students who are marked as employer-ready gain access to our employer referral program, additional workshops, and other resources. Work with your Career Director to become employer-ready. At a minimum, you must have:
-
-- A clear, concise, and compelling resume. Submit via your learning platform for review.
-- A polished GitHub profile:
-  - 3 - 6 pinned repositories ([instructions here](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile))
-  - at least 5 commits per repository
-  - professional titles, i.e. not "Homework #1"
-  - thorough README.md files for each repository
-  - clean code
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
